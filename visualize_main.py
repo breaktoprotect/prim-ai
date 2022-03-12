@@ -2,7 +2,7 @@ import PrimDNA as PDNA
 import PrimVisualize as PViz
 
 def poc_visualize():
-    prim = PDNA.PrimDNA(8)
+    prim = PDNA.PrimDNA(12)
     print("[DEBUG] DNA to string:",prim.to_string(pretty=True))
 
     # Convert genetic code to Graph for visualization
